@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mairoes de idade 20 pessoas</title>
+</head>
+<script>
+    let maiores = [];
+
+    for (let i = 1; i <= 5; i++) {
+        let idade = parseInt(prompt("Digite a idade"));
+
+
+        if (idade >= 18) {
+            maiores.push(idade);
+        }
+        document.write(`Idades digitadas: ${idade}<br/>`)
+
+    }
+
+    if (maiores.length > 0) {
+        document.write(`Maiores de idade: ${maiores.length}`);
+    } else {
+        document.write(`Não há maiores de idade`);
+    }
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>

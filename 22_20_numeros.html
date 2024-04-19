@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Numeros</title>
+</head>
+<script>
+    let num = 0
+    
+    let entre = []
+
+    for(let i =1; i< 20; i++){
+
+        let num = parseInt(prompt("Digite um numero"))
+    
+        if(num <= 100){
+            entre.push(num)
+        }
+
+    }
+
+    if(entre.length > 0){
+        document.write(`Existem ${entre.length} numeros entre 1 e 100.`)
+    }else{
+        document.write("Não há numeros menores que 100.")
+    }
+</script>
+<body>
+    
+</body>
+</html>
