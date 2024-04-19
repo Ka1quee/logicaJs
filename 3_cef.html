@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let salario = parseFloat(prompt("Digite seu salario"))
+
+    if(salario >= 0 && salario <= 500){
+        alert("Nenhum crédito disponivel")
+    }else if(salario >= 501 && salario <= 1000){
+        alert("30% do valor do saldo médio")
+    }else if(salario >= 1001 && salario <= 3000){
+        alert("40% do valor do saldo médio")
+    }else if(salario > 3001){
+        alert("50% do valor do saldo médio")
+    }
+</script>
+<body>
+    
+</body>
+</html>
